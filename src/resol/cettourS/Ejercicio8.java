@@ -19,13 +19,13 @@ public class Ejercicio8 {
                     Scanner scanner1 = new Scanner(System.in);
                     System.out.println("Ingrese los grados Celcius que desea convertir a Farenheit");
                     int gradosC = scanner1.nextInt();
-                    System.out.println(gradosC + " grados Celcius " + "equivalen a " + ((gradosC * 9 / 5) + 32) + " grados Farenheit.");
+                    System.out.println(Colores.BOLD + Colores.CYAN + gradosC + " grados Celcius " + "equivalen a " + ((gradosC * 9 / 5) + 32) + " grados Farenheit." + Colores.RESET);
                     break;
                 case 2:
                     Scanner scanner2 = new Scanner(System.in);
-                    System.out.println("Ingrese los grados Farenheit que desea copnvertir a Celcius");
+                    System.out.println(Colores.BOLD + Colores.CYAN + "Ingrese los grados Farenheit que desea convertir a Celcius");
                     int gradosF = scanner2.nextInt();
-                    System.out.println(gradosF + " equivalen a " + ((gradosF - 32) * 5 / 9) + " grados Celcius");
+                    System.out.println(gradosF + " equivalen a " + ((gradosF - 32) * 5 / 9) + " grados Celcius" + Colores.RESET);
 
 
             }

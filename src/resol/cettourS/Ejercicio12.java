@@ -25,9 +25,9 @@ public class Ejercicio12 {
                 }
             }
         }
-        System.out.println("Los números ordenados de mayor a menor son:");
+        System.out.println(Colores.BOLD + Colores.ROJO + "Los números ordenados de mayor a menor son:" + Colores.RESET);
         for (int i = 0; i < numerosOrdenados.length; i++) {
-            System.out.print(numerosOrdenados[i] + ",");
+            System.out.print(Colores.BOLD + Colores.ROJO + numerosOrdenados[i] + "," + Colores.RESET);
         }
     }
 }

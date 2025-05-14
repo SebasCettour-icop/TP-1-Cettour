@@ -14,6 +14,6 @@ public class Ejercicio9 {
                 contador++;
             }
         }
-        System.out.println("Número total de palabras: " +contador);
+        System.out.println(Colores.BOLD + "Número total de palabras: " +contador);
     }
 }

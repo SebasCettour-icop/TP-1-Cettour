@@ -26,7 +26,7 @@ public class Ejercicio7 {
                     int numero1 = scanner1.nextInt();
                     System.out.println("Ingrese el segundo número: ");
                     int numero2 = scanner1.nextInt();
-                    System.out.println("La suma de los números elegidos es " + (numero1 + numero2));
+                    System.out.println(Colores.BOLD + Colores.CYAN + "La suma de los números elegidos es " + (numero1 + numero2)+Colores.RESET);
                     break;
 
                 case 2:
@@ -35,7 +35,7 @@ public class Ejercicio7 {
                     int numero3 = scanner2.nextInt();
                     System.out.println("Ingrese el segundo número");
                     int numero4 = scanner2.nextInt();
-                    System.out.println("La resta de los números elegidos es " + (numero3 - numero4));
+                    System.out.println(Colores.BOLD + Colores.CYAN + "La resta de los números elegidos es " + (numero3 - numero4) +Colores.RESET);
 
                     break;
 
@@ -45,7 +45,7 @@ public class Ejercicio7 {
                     int numero5 = scanner3.nextInt();
                     System.out.println("Ingrese el segundo número");
                     int numero6 = scanner3.nextInt();
-                    System.out.println("La multiplicación del primer número por el segundo es " + (numero5 * numero6));
+                    System.out.println(Colores.BOLD + Colores.CYAN + "La multiplicación del primer número por el segundo es " + (numero5 * numero6) +Colores.RESET);
 
                     break;
 
@@ -55,7 +55,7 @@ public class Ejercicio7 {
                     int numero7 = scanner4.nextInt();
                     System.out.println("Ingrese el segundo número");
                     int numero8 = scanner4.nextInt();
-                    System.out.println("La división del primer número por el segundo es " + (numero7 / numero8));
+                    System.out.println(Colores.BOLD + Colores.CYAN + "La división del primer número por el segundo es " + (numero7 / numero8) +Colores.RESET);
                     break;
 
                 case 0:

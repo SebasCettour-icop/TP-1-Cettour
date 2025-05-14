@@ -16,7 +16,7 @@ public class Ejercicio13 {
                 suma += notas[i][j];
             }
             double promedio = suma / notas[i].length;
-            System.out.println("Nombre del estudiante: " + nombres[i] + " - Promedio: " + promedio);
+            System.out.println(Colores.BOLD + Colores.AMARILLO + "Nombre del estudiante: " + nombres[i] + " - Promedio: " + promedio +Colores.RESET);
         }
     }
     }

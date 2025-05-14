@@ -14,7 +14,7 @@ public class Ejercicio14 {
                 {8, 7, 0, 8, 9, 0, 8}
         };
 
-        System.out.println("Arreglo original:");
+        System.out.println(Colores.BOLD + Colores.CYAN + "Arreglo original:" + Colores.RESET);
         mostrar(original);
 
         ArrayList<int[]> resultado = new ArrayList<>();
@@ -36,7 +36,7 @@ public class Ejercicio14 {
 
         int[][] arregloFinal = resultado.toArray(new int[0][]);
 
-        System.out.println("\nArreglo resultante (sin ceros y filas vacías):");
+        System.out.println(Colores.BOLD + Colores.CYAN + "\nArreglo resultante (sin ceros y filas vacías):" +Colores.RESET);
         mostrar(arregloFinal);
     }
 

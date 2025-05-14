@@ -34,10 +34,10 @@ public class Ejercicio10 {
         }
 
         if (password.length() >= 8 && mayusculas >= 2 && minusculas >= 3 && numeros >= 2) {
-            System.out.println("¡Contraseña segura!");
+            System.out.println(Colores.VERDE + "¡Contraseña segura!" + Colores.RESET);
         } else {
-            System.out.println("¡Contraseña débil! Recuerde que la contraseñe debe tener al menos 8 caracteres, " +
-                    "al menos 2 mayúsculas, 3 minúsculas y 2 números ");
+            System.out.println(Colores.ROJO + "¡Contraseña débil! Recuerde que la contraseñe debe tener al menos 8 caracteres, " +
+                    "al menos 2 mayúsculas, 3 minúsculas y 2 números " + Colores.RESET);
         }
 
 
